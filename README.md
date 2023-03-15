@@ -19,8 +19,9 @@ flutter pub run flutter_launcher_icons
 When this message appears, it means success:
 
 3. Rename App
-Android: …\android\app\src\main\AndroidManifest.xml
 
-IOS: …\ios\Runner\Info.plist
+Android: â€¦\android\app\src\main\AndroidManifest.xml
+
+IOS: â€¦\ios\Runner\Info.plist
 
 
