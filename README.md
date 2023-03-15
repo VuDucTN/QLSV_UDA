@@ -1,16 +1,26 @@
-# uda_qlsv
+How to create Icon for UDA_QLSV app.
+https://pub.dev/packages/flutter_launcher_icons
+1. Setup the config file 
+Add your Flutter Launcher Icons configuration to your pubspec.yaml or create a new config file called flutter_launcher_icons.yaml. An example is shown below. More complex examples can be found in the example projects.
+dev_dependencies:
+  flutter_launcher_icons: "^0.12.0"
 
-A new Flutter project.
+flutter_icons:
+  android: "launcher_icon"
+  ios: true
+  image_path: "assets/icon/icon.png"
+For image_path. Create a folder containing icons. Example assets/icon/icon.png
 
-## Getting Started
+2. Run the package:
+After setting up the configuration, all that is left to do is run the package.
+Run at terminal
+flutter pub get
+flutter pub run flutter_launcher_icons
+When this message appears, it means success:
 
-This project is a starting point for a Flutter application.
+3. Rename App
+Android: …\android\app\src\main\AndroidManifest.xml
 
-A few resources to get you started if this is your first Flutter project:
+IOS: …\ios\Runner\Info.plist
 
-- [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
 
-For help getting started with Flutter, view our
-[online documentation](https://flutter.dev/docs), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
